@@ -1,0 +1,27 @@
+{
+  "name": "baseplate-gg",
+  "private": true,
+  "version": "2.4.0",
+  "type": "module",
+  "description": "Baseplate.gg — The #1 Free Forever AI Game Agent & GUI Forge for Roblox Studio",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "tsc --noEmit && vite build && node scripts/postbuild-routes.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0",
+    "vite": "^7.0.0"
+  }
+}
